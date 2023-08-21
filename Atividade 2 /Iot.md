@@ -22,9 +22,24 @@ Grandes empresas como Uber e Airbnb já utilizam a Inteligência das Coisas em s
 
 A IoT evoluiu após 2010 com o aumento de dispositivos móveis e o surgimento de tecnologias como Bluetooth, Wi-Fi e 5G. Ela se expandiu para áreas como indústria, agricultura e saúde, facilitando a vida cotidiana.
 
+Essa necessidade de tornar o hardware mais “inteligente” permitiu a evolução até os dias de hoje, onde a comunicação Bluetooth, Wi-Fi e, recentemente, a rede 5G, permitem milhares de aplicações para a Internet das Coisas.
+
+Com isso, a IoT avançou para muitas outras áreas, como indústria, agricultura e saúde. Seja no uso residencial ou empresarial, a conexão com os dispositivos facilita a vida do ser humano e traz comodidade para muitas tarefas.
+
+No entanto, ainda há muito espaço para a evolução da tecnologia e muitas oportunidades para o seu uso em novas áreas.
+
 ## Futuro da IoT
 
-O futuro da IoT é promissor e tem potencial para transformar muitos aspectos da sociedade. Algumas tendências incluem tecnologias de comunicação de baixa energia, maior integração com a nuvem, segurança reforçada e integração com a Inteligência Artificial.
+Como podemos imaginar, o futuro da Internet das Coisas é bastante promissor e a tecnologia tem um grande potencial para mudar significativamente muitas áreas da sociedade. 
+
+Algumas das tendências e desenvolvimentos futuros que se esperam na IoT incluem:
+
+- Maior utilização de tecnologias de comunicação de baixa energia: dispositivos IoT consomem muita energia e uma das principais áreas de pesquisa atualmente é a busca por tecnologias de comunicação de baixa energia que possam prolongar a vida útil desses dispositivos.
+Integração ainda maior com a nuvem: a nuvem é um componente essencial da IoT, onde é esperado que a integração entre essas duas tecnologias aumente ainda mais no futuro, permitindo que dispositivos acessem e compartilhem ainda mais dados.
+- Maior segurança: a segurança é uma preocupação crescente quando se trata de dispositivos IoT, e é esperado que haja uma maior ênfase na segurança desses dispositivos no futuro. Isso inclui medidas de segurança como criptografia e autenticação.
+- Maior integração com a inteligência artificial: A inteligência artificial e a IoT podem ser tecnologias complementares, e é esperado que a IA se torne cada vez mais integrada à IoT no futuro, permitindo que os dispositivos sejam ainda mais inteligentes e capazes de tomar decisões assertivas.
+  
+No entanto, essas são apenas algumas das tendências e desenvolvimentos futuros esperados para a IoT. Ela tem um grande potencial para mudar significativamente muitas áreas da sociedade e é esperado que continue a evoluir rapidamente nos próximos anos.
 
 *Fontes:*
 - [Aliger - Inteligência das Coisas](https://aliger.com.br/inteligencia-das-coisas-entenda-por-que-seu-negocio-precisa-disso/#:~:text=De%20uma%20forma%20resumida%2C%20podemos,de%20tarefas%20simples%20ou%20n%C3%A3o.)
