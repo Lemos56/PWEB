@@ -1,0 +1,58 @@
+img {
+    max-width: 100%;
+    height: 479px;
+    display: block;
+    border: 1px solid #CCC;
+    border-color: black;
+    border-radius: 20px;
+    
+}
+body{
+    background-image: url(https://images8.alphacoders.com/530/530092.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.imagem
+{
+    margin: 0 auto;
+    max-width: 70%;
+    overflow: hidden;
+    
+
+}
+
+.esquerda {
+    float: left;
+    width: 50%;
+    margin-right: px;
+    
+}
+.direita{
+    float: right;
+    width: 50%;
+
+}
+
+.legenda {
+    text-align: center;
+    color: white;
+}
+
+.rodape {
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    margin-right: 400px;
+    margin-left: 250px;
+}
+
+.buttondireita{
+    margin-left: 100px;
+} 
+
+
+  
