@@ -1,0 +1,126 @@
+.color-div {
+
+    width: 500px;
+
+    height: 500px;
+
+    text-align: center;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 24px;
+
+}
+
+ 
+
+@media (max-width: 420px) {
+
+    .color-div {
+
+        background-color: gray;
+
+    }
+
+    .color-div h1::before {
+
+        content: "Gray";
+
+    }
+
+}
+
+ 
+
+@media (min-width: 421px) and (max-width: 768px) {
+
+    .color-div {
+
+        background-color: orange;
+
+    }
+
+    .color-div h1::before {
+
+        content: "Orange";
+
+    }
+
+}
+
+ 
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .color-div {
+
+        background-color: pink;
+
+    }
+
+    .color-div h1::before {
+
+        content: "Pink";
+
+    }
+
+}
+
+ 
+
+@media (min-width: 1025px) and (max-width: 1080px) {
+
+    .color-div {
+
+        background-color: red;
+
+    }
+
+    .color-div h1::before {
+
+        content: "Vermelho";
+
+    }
+
+}
+
+ 
+
+@media (min-width: 1081px) and (max-width: 1366px) {
+
+    .color-div {
+
+        background-color: blue;
+
+    }
+
+    .color-div h1::before {
+
+        content: "Blue";
+
+    }
+
+}
+
+ 
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+
+    .color-div {
+
+        background-color: yellow;
+
+    }
+
+    .color-div h1::before {
+
+        content: "Yellow";
+
+    }
+
+}
+
