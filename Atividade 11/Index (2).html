@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade11</title>
+</head>
+<body>
+    <script>
+        var aluno1 = new Object();
+        aluno1.ra = "00001234";
+        aluno1.nome = "Simão Pedro";
+        alert("ra=" + aluno1.ra + " Nome=" + aluno1.nome);
+
+
+        var aluno2 = {};
+        aluno2.ra = "1234";
+        aluno2["nome"] = "Kelly";
+        alert("ra=" + aluno2.ra + " nome=" + aluno2.nome);
+
+        var aluno3 = {
+            ra: "1234567",
+            nome: "Henrique"
+        };
+        alert("ra=" + aluno3.ra + " Nome=" + aluno3.nome);
+
+        //função construtora
+        function Aluno(ra,nome){
+            this.ra = ra;
+            this.nome = nome;
+
+            this.MostraDados = function () {
+                return "ra=" + this.ra + " Nome=" + this.nome;
+            }
+        }
+        var aluno4 = new Aluno("123", "Lucas");
+        alert (aluno4.MostraDados());
+        alert (aluno4.nome);
+
+        var aluno5 = {};
+        var nome_propriedade = "ra";
+        aluno5[nome_propriedade] = "123";
+        aluno5['nome'] = "Vitor";
+        alert (aluno5.ra + " " + aluno5.nome);
+        </script>
+</body>
+</html>
