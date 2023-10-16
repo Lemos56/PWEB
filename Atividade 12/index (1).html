@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibile" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando variáveis</title>
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+    <h1>Atividade12 - Pweb</h1>
+    <h1>Acesse o console para verificar o exercício ;)</h1>
+    <p>Nome: Felipe Kaua Lemos - 0030482211025</p>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #0b1cdb;
+            /* Define a cor de fundo como azul */
+            color: white;
+            /* Define a cor do texto como branca */
+        }
+
+        h1 {
+            margin: 20px;
+            padding: 10px;
+            text-align: center;
+            background-color:  #0b1cdb;
+            /* Define a cor de fundo como azul para os divs */
+            color: white;
+            /* Define a cor do texto como branca para os divs */
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+    <script>
+        // Criando um objeto da classe Corrente
+        const corrente = new Corrente("Ronaldo Moises Munari", "Banco do Brasil", 10252699863, 1000.00, 500.00);
+        console.log(corrente);
+
+        // Criando um objeto da classe Poupança
+        const poupança = new Poupança("Renato Silva Moreira", "Caixa Econômica Federal", 20352877852, 15000.00, 0.05, "2025-12-25");
+        console.log(poupança);
+        // Criando um objeto da classe Retangulo
+        var area = new Retangulo(4, 5);
+
+        // Exibindo o resultado no console
+        console.log(area.calcArea(4, 5));
+
+        
+    </script>
+</body>
+
+</html>
