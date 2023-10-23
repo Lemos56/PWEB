@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 13</title>
+</head>
+<style>
+    
+    body{
+    text-align: center;
+    padding-top: 8px;
+    background-color:burlywood;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1;
+    font-weight: 400;
+    }
+    
+</style>
+
+<body>
+        <h1>Trasforma em MAIÚSCULAS e minúsculas </h1>
+        <p>Digite algo:</p>
+    
+    <div class ="container"> 
+        <input type="text" id="inputText"/>
+    <br>
+    <br>
+        <input type="radio" id="upper" name="type" onclick="toUpper()" />
+        <label for="upper"> Transforma para MAIÚSCULO</label>
+    <br>
+        <input type="radio" id="lower" name="type" onclick="toLower()" />
+        <label for="lower"> Transforma para minúsculo</label>
+    </div>
+
+<script>
+    const toUpper = () =>{
+    const input = document.body.querySelector('#inputText');
+    input.value = input.value.toUpperCase();
+    };
+
+    const toLower = () =>{
+    const input = document.body.querySelector('#inputText');
+    input.value = input.value.toLowerCase();
+     };
+</script>
+
+</body>
+</html>
