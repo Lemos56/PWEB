@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12</title>
+    
+</head>
+
+<style>
+    body{
+        background-image: url('img/tijolinho.jpg');
+    }
+
+    h1{       
+        color:rgb(101, 31, 165);
+        text-align: center;
+    }
+
+    img{
+        width: 200px;
+        height: 250px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Abra a janela</h1>
+    <img src="img/fechada.jpeg" id="fechada" onmouseover="janela()">
+    </center>
+    <Script>
+        function janela(){
+           var img = document.getElementById("fechada")
+            img.addEventListener('mouseover', 
+            function(){
+            img.src = "img/aberta.jpeg" 
+            })
+
+            img.addEventListener('mouseout', 
+            function(){
+            img.src = "img/fechada.jpeg" 
+            })
+
+            img.addEventListener('click', 
+            function(){
+            img.src = "img/quebrada.jpeg"
+            })
+
+        }
+
+    </Script>
+    
+</body>
+</html>
