@@ -1,0 +1,25 @@
+
+
+body {
+    
+    background-color: rgb(23, 244, 18);
+}
+h1 {
+    color: black;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+input, textarea {
+    border-radius: 4px;
+}
+
+
+  
+.footer-bottom img{
+    position: sticky;
+    object-position: right;
+  }
